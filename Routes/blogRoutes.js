@@ -1,4 +1,4 @@
-import { getAllBlogs,getOneBlog,createBlog,deleteBlog,updateBlog} from "../controllers/blogController.js";
+import { getAllBlogs, getOneBlog, createBlog, deleteBlog, updateBlog } from "../controllers/blogController.js";
 
 //we useexpress router to set up routing in node
 import express from "express";
