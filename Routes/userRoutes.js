@@ -1,4 +1,4 @@
-import { getAllusers, getOneuser, updateuser, deleteuser } from "../Controllers/userController.js";
+import { getAllusers, getOneuser, updateuser, deleteuser } from "../controllers/userController.js";
 import express from 'express';
 
 //import multer helper

@@ -1,7 +1,7 @@
 //  This Controller will have all blog logics
 // Import your model
 
-import Blog from "../Models/blogModel.js";
+import Blog from "./Models/blogModel.js";
 
 // view all blogs
 
