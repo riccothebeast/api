@@ -24,7 +24,8 @@ dotenv.config();
 //setup express app
 const app = express();
 //setup cors 
-app.use(cors())
+//allow access from frontend 
+app.use(cors({origin:"http://localhost:3000",credentials:true}));
 app.use(express.json({limit:'10mb'}))
 
 //make uploads folder accesible publicly(access from frontend)
